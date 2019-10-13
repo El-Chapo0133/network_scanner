@@ -4,7 +4,8 @@ var scanObj = { argument: ["-I", "eth0"] }
 
 class Scanner {
     scan() {
-        console.log(Date.toUTCString(Date.UTC(Date.now())))
+        var date = new Date(Date.now())
+        console.log('# ' + date.toUTCString())
         scanner.scan(scanObj, (devices) => {
             console.log(devices)
         })
