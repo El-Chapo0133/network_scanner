@@ -1,0 +1,29 @@
+{
+  "name": "network_scanner",
+  "version": "0.1.0",
+  "description": "simple app in nodejs to scan network",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "local-network-scanner": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/El-Chapo0133/network_scanner.git"
+  },
+  "keywords": [
+    "nodejs",
+    "scan",
+    "network",
+    "express"
+  ],
+  "author": "Loris Levêque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/El-Chapo0133/network_scanner/issues"
+  },
+  "homepage": "https://github.com/El-Chapo0133/network_scanner#readme"
+}
