@@ -13,10 +13,6 @@ app.get('/', (request, response) => {
         console.log(err)
     } else {
         console.log("server lunched on " + ip.IP + ":" + port.PORT)
-        while (true) {
-            setTimeout(() => {
-                scanner.scan()
-            }, 10000)
-        }
+        scanner.scan()
     }
 })
